@@ -1,0 +1,26 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>How to use All-Day header to display scheduled time statistics - Developer Express Example</title>
+<style>
+html, body, form 
+{
+	font-family: Tahoma, Arial, Verdana;
+    font-size: small;
+    color: #303440;
+}
+h1 {
+	font-size: 125%;
+	font-weight: normal;
+	color: Black;
+	letter-spacing: 101%;
+}
+</style>
+</head>
+<body>
+<h1>Developer Express Example<br />How to use All-Day header to display scheduled time statistics</h1>
+<p>Problem : It would be good to display how much time you have in use (% wise) in your schedule. When an appointment is added/changed/deleted for each resource it will calculate the appointments on the days that have been changed against your total time available and get a % which will be added to the top of the schedule. When you have less than 50% available it will show yellow and when you go over 50% it will show in red. Solution: You can utilize the SchedulerControl.CustomDrawDayViewAllDayArea event to draw this statistics in the All-Day appointments area. Then, you can collect appointments for a particular day via the SchedulerStorageBase.GetAppointments method. This approach is illustrated by the following example.</p>
+<p>You can find sample updates and versions for different programming languages here:<br /><a href="http://www.devexpress.com/example=E121">http://www.devexpress.com/example=E121</a>.</p>
+</body>
+</html>
